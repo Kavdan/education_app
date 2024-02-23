@@ -1,0 +1,33 @@
+$hover--color: #149eca;
+
+button.default {
+    border: none;
+    background: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    cursor: pointer;
+    span {
+        color: white;
+        font-size: 15px;
+    }
+
+    &:hover {
+        background: #e5e7eb46;
+
+        span {
+            color: $hover--color;
+        }
+    }
+}
+
+button.active {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #e5e7eb46;
+    span {
+        font-size: 15px;
+        color: $hover--color;}
+}

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    background: rgb(35 39 47/1);
+    width: calc(100% - 15px);
+    margin-top: 0;
+
+    .search {
+        width: 100%;
+    }
+
+    .header-options {
+        display: flex;
+        gap:10px;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .header-menu {
+        order:-1;
+    }
+}
